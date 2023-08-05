@@ -21,7 +21,7 @@ const Parallax = () => {
       <div id="parallax-image" className="parallax-image" />
       {/* Konten utama Anda di atas latar belakang paralaks */}
       <div className="content container h-100 d-flex flex-column justify-content-center align-items-center text-white">
-        <h1>Welcome to Our Website</h1>
+        <h1 className="text-center">Welcome to Our Website</h1>
         <p className="text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
