@@ -1,0 +1,20 @@
+.aboutpage {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.aboutpage .comunity-img {
+  height: 550px;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutpage .comunity-img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .aboutpage .comunity-img {
+    height: 300px;
+  }
+}
