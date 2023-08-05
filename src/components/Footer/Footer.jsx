@@ -35,7 +35,7 @@ const Footer = () => {
               <a href="/">Home</a>
               <a href="/kegiatan">Kegiatan</a>
               <a href="/about">About</a>
-              <a href="/login">Admin</a>
+              <a href="/">Admin</a>
             </div>
           </Col>
           <Col md={3} className="mt-4 mt-md-0">

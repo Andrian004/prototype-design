@@ -64,3 +64,43 @@
   background-color: rgba(245, 245, 245, 0.6);
   box-shadow: 2px 2px 5px rgba(18, 18, 18, 0.4);
 }
+
+@media screen and (max-width: 768px) {
+  .homepage .list-wrapper-left::before {
+    width: 40px;
+    height: 40px;
+    left: 8%;
+  }
+
+  .homepage .list-wrapper-right::after {
+    width: 40px;
+    height: 40px;
+    right: 8%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .homepage .list-wrapper-left::before {
+    width: 35px;
+    height: 35px;
+    left: 8%;
+  }
+
+  .homepage .list-wrapper-right::after {
+    width: 35px;
+    height: 35px;
+    right: 8%;
+  }
+
+  .homepage .list-wrapper-right:hover::after {
+    box-shadow: 0 0 30px rgb(2, 132, 254);
+  }
+
+  .homepage .list-wrapper-left:hover::before {
+    box-shadow: 0 0 30px rgb(2, 132, 254);
+  }
+
+  .homepage .card-list {
+    margin-bottom: 20px;
+  }
+}

@@ -27,7 +27,7 @@ const Navigationbar = () => {
         fixed="top"
       >
         <Container>
-          <Navbar.Brand href="#">RB Community</Navbar.Brand>
+          <Navbar.Brand href="#">Restoe Boemi</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${expand}`}
