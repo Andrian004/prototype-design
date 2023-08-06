@@ -49,7 +49,6 @@ const Navigationbar = () => {
                       className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""
                       }
-                      reloadDocument
                       end
                     >
                       {link.link}

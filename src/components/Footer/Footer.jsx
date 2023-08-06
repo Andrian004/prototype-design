@@ -33,18 +33,10 @@ const Footer = () => {
           <Col md={3} className="mt-4 mt-md-0">
             <h4>Links</h4>
             <div className="links d-flex flex-column gap-2">
-              <Link to="/" reloadDocument>
-                Home
-              </Link>
-              <Link to="/kegiatan" reloadDocument>
-                Kegiatan
-              </Link>
-              <Link to="/about" reloadDocument>
-                About
-              </Link>
-              <Link to="/" reloadDocument>
-                Admin
-              </Link>
+              <Link to="/">Home</Link>
+              <Link to="/kegiatan">Kegiatan</Link>
+              <Link to="/about">About</Link>
+              <Link to="/">Admin</Link>
             </div>
           </Col>
           <Col md={3} className="mt-4 mt-md-0">
