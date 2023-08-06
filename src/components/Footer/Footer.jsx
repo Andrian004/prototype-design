@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import "./Footer.css";
 
@@ -32,10 +33,18 @@ const Footer = () => {
           <Col md={3} className="mt-4 mt-md-0">
             <h4>Links</h4>
             <div className="links d-flex flex-column gap-2">
-              <a href="/">Home</a>
-              <a href="/kegiatan">Kegiatan</a>
-              <a href="/about">About</a>
-              <a href="/">Admin</a>
+              <Link to="/" reloadDocument>
+                Home
+              </Link>
+              <Link to="/kegiatan" reloadDocument>
+                Kegiatan
+              </Link>
+              <Link to="/about" reloadDocument>
+                About
+              </Link>
+              <Link to="/" reloadDocument>
+                Admin
+              </Link>
             </div>
           </Col>
           <Col md={3} className="mt-4 mt-md-0">

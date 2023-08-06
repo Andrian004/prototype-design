@@ -15,7 +15,7 @@ const Navigationbar = () => {
   const navLink = [
     { path: "/", link: "Home" },
     { path: "/kegiatan", link: "Kegiatan" },
-    { path: "/About", link: "About" },
+    { path: "/about", link: "About" },
   ];
 
   return (
@@ -49,6 +49,7 @@ const Navigationbar = () => {
                       className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""
                       }
+                      reloadDocument
                       end
                     >
                       {link.link}
